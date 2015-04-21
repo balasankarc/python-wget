@@ -5,4 +5,3 @@
 export PYBUILD_NAME=wget
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild
-
