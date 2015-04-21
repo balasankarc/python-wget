@@ -1,0 +1,35 @@
+Source: python-wget
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all (>= 2.6.6-3),
+               python-setuptools,
+               python3-all,
+               python3-setuptools
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/python-modules/packages/python-wget.git
+Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/python-wget.git
+Homepage: http://bitbucket.org/techtonik/python-wget/
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+
+Package: python-wget
+Architecture: all
+Depends: python-urllib3, ${misc:Depends}, ${python:Depends}
+Description: pure Python download utility for Python 2
+ This package installs the wget module for Python version 2.x. wget module
+ can be used to perform basic network downloads inside a Python script.
+ .
+ More information about the usage can be found at README.txt
+
+Package: python3-wget
+Architecture: all
+Depends: python-urllib3, ${misc:Depends}, ${python3:Depends}
+Description: pure Python download utility for Python 3
+ This package installs the wget module for Python version 3.x. wget module
+ can be used to perform basic network downloads inside a Python script.
+ .
+ More information about the usage can be found at README.txt

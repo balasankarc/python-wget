@@ -1,0 +1,5 @@
+python-wget (2.2-1) unstable; urgency=low
+
+  * Initial upload (Closes: #781572)
+
+ -- Balasankar C <balasankarc@autistici.org>  Mon, 30 Mar 2015 01:09:57 +0530
